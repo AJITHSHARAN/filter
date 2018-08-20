@@ -4,17 +4,14 @@ var app = express();
 var http=require("http");
 var bodyParser=require("body-parser");
 app.use(bodyParser.urlencoded({extended: true}));
-setInterval(function()
-{
-  http.get("http://sharktank1.herokuapp.com");
-},300000);
+
 // mysql://b9c97d8c49c551:3e5f2523@us-cdbr-iron-east-01.cleardb.net/heroku_3108c0fccd7a9e6?reconnect=true
 var connection = mysql.createConnection(
   {
     host:'us-cdbr-iron-east-01.cleardb.net',
-  user:'b60b3625b63873',
-  password:'f13b3959',
-  database:'heroku_504b26535c92ed2'
+  user:'b66521e6fc003b',
+  password:'d4365032',
+  database:'heroku_58f55cd971911b4'
 });
 connection.connect(function(error)
 {
