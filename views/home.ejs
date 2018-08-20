@@ -582,7 +582,7 @@ temp+=amount[amount.length-1]+")";
 }
 console.log(temp);
   $.ajax({
-    url:"http://localhost:1337/season/"+temp,
+    url:"http://sharktank1.herokuapp.com/season/"+temp,
     method:"POST",
     success:function(data)
     {
