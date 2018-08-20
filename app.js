@@ -5,7 +5,7 @@ var bodyParser=require("body-parser");
 app.use(bodyParser.urlencoded({extended: true}));
 // mysql://b9c97d8c49c551:3e5f2523@us-cdbr-iron-east-01.cleardb.net/heroku_3108c0fccd7a9e6?reconnect=true
 var connection = mysql.createConnection(
-  ?mysql:b60b3625b63873:f13b3959@us-cdbr-iron-east-01.cleardb.net/heroku_504b26535c92ed2?reconnect=true
+  // mysql:b60b3625b63873:f13b3959@us-cdbr-iron-east-01.cleardb.net/heroku_504b26535c92ed2?reconnect=true
   {
     host:'us-cdbr-iron-east-01.cleardb.net',
   user:'b60b3625b63873',
