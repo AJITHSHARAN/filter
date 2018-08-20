@@ -5,8 +5,6 @@ var http=require("http");
 var bodyParser=require('body-parser');
 app.use(bodyParser.urlencoded({extended: true}));
 
-// mysql://b9c97d8c49c551:3e5f2523@us-cdbr-iron-east-01.cleardb.net/heroku_3108c0fccd7a9e6?reconnect=true
-mysql://be4a08ed47e631:dee3f70d@us-cdbr-iron-east-01.cleardb.net/heroku_df00c235a7e0d18?reconnect=true
 var connection = mysql.createConnection(
   {
     host:'us-cdbr-iron-east-01.cleardb.net',
