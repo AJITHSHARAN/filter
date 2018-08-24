@@ -57,3 +57,4 @@ var tab="<h2 class='h1-responsive font-weight-bold my-5 text-center'><i class='f
 });
 });
 app.listen(process.env.PORT || 1337);
+// mysql://be4a08ed47e631:dee3f70d@us-cdbr-iron-east-01.cleardb.net/heroku_df00c235a7e0d18?reconnect=true
