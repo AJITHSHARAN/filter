@@ -32,7 +32,7 @@ res.render("home.ejs");
 app.post("/season/:id",function(req,res)
 {
   var sea=req.params.id;
-  console.log(id);
+  console.log(id  +" dfshdkj");
   connection.query("SELECT * FROM  SHARK1 WHERE "+sea , function(err,rows,fields){
 if(err)
 {
