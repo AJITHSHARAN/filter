@@ -9,7 +9,7 @@ var connection = mysql.createConnection(
   {
     host:'us-cdbr-iron-east-01.cleardb.net',
   user:'be4a08ed47e631',
-  password:'dee3f70',
+  password:'dee3f70d',
   database:'heroku_df00c235a7e0d18'
 });
 connection.connect(function(error)
@@ -32,6 +32,7 @@ res.render("home.ejs");
 app.post("/season/:id",function(req,res)
 {
   var sea=req.params.id;
+  console.log(id);
   connection.query("SELECT * FROM  SHARK1 WHERE "+sea , function(err,rows,fields){
 if(err)
 {
